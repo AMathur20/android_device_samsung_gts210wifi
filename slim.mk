@@ -10,19 +10,15 @@ $(call inherit-product, vendor/slim/config/common.mk)
 
 
 #Boot animation
-TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_HEIGHT := 2048
 TARGET_SCREEN_WIDTH := 1536
 
-## Device identifier. This must come after all inclusions
-# New name, to be used per lineage-15 as default
+
 PRODUCT_NAME := slim_gts210wifi
-# Old name for 14.x tree
-# Reuse this when automated build isn't adapted for lineage_
-# product name before this device goes nightly
 PRODUCT_DEVICE := gts210wifi
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SM-T810
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=gts210wifi
