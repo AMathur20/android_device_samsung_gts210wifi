@@ -20,5 +20,8 @@ PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SM-T810
 PRODUCT_MANUFACTURER := Samsung
 
+# Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=gts210wifi
+    PRODUCT_NAME=gts210wifi \
+    BUILD_FINGERPRINT=samsung/gts210wifi/gts210wifi:7.0/NRD90M/T810ZCU2CQL4:user/release-keys \
+    PRIVATE_BUILD_DESC="gts210wifi-user 7.0 NRD90M T810ZCU2CQL4 release-keys"
